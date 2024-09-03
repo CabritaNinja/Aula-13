@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: "Fjalla One", sans-serif;
+    background: url(../imagens/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.top{
+    background-color: #5ce1e6;
+}
+
+.pag{
+    display: flex;
+}
+
+#bemVindo{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 50px;
+    background-color: whitesmoke;
+    margin-top: 2%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+#bemVindo h1{
+    color: orange;
+}
+#bemVindo p{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+#img1{
+    margin-bottom: 20px;
+}
+
+.conteudo{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 50px;
+    background-color: whitesmoke;
+    margin-top: 2%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.conteudo p{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: whitesmoke;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    position: fixed;
+    z-index: 2;
+}
+
+.menu a{
+    border: 3px #5ce1e6 solid;
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.rodape{
+    background-color: whitesmoke;
+    opacity: 80%;
+}
+
+.rodape h3{
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.rodape img{
+    border-radius: 100%;
+    margin-top: 2%;
+}
+
+.contato{
+    background-color: #5ce1e6;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.conteudo h1{
+    color: orange;
+}
+
+.figure{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.figure h1{
+    font-size: 50px;
+    text-align: center;
+}
+.figure h2{
+    font-size: 35px;
+    margin-left: 2%;
+    text-align: left;
+    color: orange;
+}
+
+.viagem{
+    display: block;
+    text-align: center;
+    margin-left: 30.5%;
+    margin-right: 30.5%;
+    width: 100%;
+    background-size: 500px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin-top: 2%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    padding: 4rem;
+}
+
+.viagem h1, .viagem h3{
+    color: orange;
+}
+
+.bloco{
+    background-color: #5ce1e6;
+    border-radius: 30px;
+}
+
+.viagem li{
+    text-align: left;
+}
+
+.viagem button{
+    border-radius: 40px;
+    font-size: 30px;
+    margin-bottom: 2%;
+    background-color: orange;
+    color: whitesmoke;
+    border-style: hidden;
+}
+
+.hotel{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.pg3{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 50px;
+    background-color: whitesmoke;
+    margin-top: 2%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.pg3 h1{
+    color: orange;
+    margin-left: 2%;
+}
+
+.pg3 h2{
+    font-size: 30px;
+}
